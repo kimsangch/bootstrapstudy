@@ -4,6 +4,50 @@
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>css를 활용한 반응형 웹 코딩</title>
+	<style>
+		*{padding: 0;margin: 0;}
+		body{
+			background-color: pink;
+		}
+		#wrapper {
+			border: 1px solid gray;
+			width: 80%;
+			margin: 0 auto;
+		}
+		nav li {
+			list-style: none;
+			float: left;
+			border: 1px solid gray;
+			width: 20%;
+			box-sizing: border-box;
+			text-align: center;
+		}
+		nav {
+			overflow: hidden;
+		}
+		header h1 {
+			text-align: center;
+			margin-bottom: 20px;
+		}
+		header {
+			padding: 20px 0 0 0;
+			border: 1px solid gray;
+		}
+		.content {
+			padding: 10px;
+		}
+		footer {
+			border: 1px solid gray;	
+			height: 100px;
+			line-height: 100px;
+			text-align: center;
+		}
+		@media (min-width: 992px) {
+			body {
+				background-color: lightblue;
+			}
+		}
+	</style>
 </head>
 <body>
 	<div id="wrapper">
@@ -24,7 +68,7 @@
 			<p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae suscipit delectus, facere inventore minima aliquam recusandae laboriosam et voluptatem corrupti illo numquam optio, neque minus enim blanditiis ratione architecto ipsum.</p>
 		</div>
 		<footer>
-			<h1>foooooooooooteeeeeeeeeeeer</h1>
+			<h1>designed by SK</h1>
 		</footer>
 	</div>
 </body>
