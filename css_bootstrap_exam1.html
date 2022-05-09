@@ -13,6 +13,7 @@
 			border: 1px solid gray;
 			width: 80%;
 			margin: 0 auto;
+			font-size: 2vw;
 		}
 		nav li {
 			list-style: none;
@@ -42,11 +43,39 @@
 			line-height: 100px;
 			text-align: center;
 		}
+		@media (max-width: 767px) {
+			body {
+				background-color: purple;
+				
+			}
+			#wrapper{
+				width: 100%;
+				font-size: 2em;
+			}
+			nav li {
+				width: 100%;
+			}
+		}		
+		@media (min-width: 768px) {
+			body {
+				background-color: orange;
+				
+			}
+		}		
 		@media (min-width: 992px) {
 			body {
 				background-color: lightblue;
 			}
+			#wrapper{
+				width: 100%;
+			}
 		}
+		@media (min-width: 1200px) {
+			body {
+				background-color: #1EBE45;
+			}
+		}		
+
 	</style>
 </head>
 <body>
